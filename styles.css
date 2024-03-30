@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+.hero_section{
+    background: url(macaroni-noodles-with-meat-tomato-sauce-served-plate-table.jpg) no-repeat;
+    background-size: cover;
+    height:865px;
+    }
+.nav_bar{
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    z-index: 100;
+}
+.logo{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 1000;
+    text-decoration: none;
+}
+.logo:hover{
+    color: #000000;
+    transition: .5s;
+}
+.nav_bar a{
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.nav_bar a:hover{
+    color:black ;
+    transition: .3s;
+}
+.nav_bar a::before{
+    display: flex;
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #000000;
+    transition: .3s;
+}
+.nav_bar a:hover::before{
+    width: 100%;
+}
+.title{
+    color: #fff;
+    background-color: #000000;
+    opacity: 0.7;
+    text-align: center;
+    padding: 60px;
+}
+.text_font_1{
+    font-family:cursive;
+    font-style: italic;
+    font-size: 50px;
+}
+.text_font_2{
+    font-size: 80px;
+}
+.sizzle{
+    font-style: italic;
+    font-weight: bolder;
+}
+.spice{
+    font-weight: bolder;
+}
+.sub_title{
+    font-family:cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    line-height: 2px;    
+}
+.button{
+    padding-top: 50px;
+    text-align: center;
+}
+.button1{
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    background-color:black;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: 20px;
+    width: 20% ;
+}
+.button1:hover{
+    background-color: green;
+    opacity: 1;
+    transition: .5s;
+}
+.about_us{
+    display: flex;
+    padding: 50px 20px;
+    background-color:darkgray;
+}
+.img{
+  text-align: center;
+}
+.info{
+    margin: 60px;
+    margin-top: auto;
+}
+.heading_1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+.txt{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+.button_2{
+    text-align: center;
+}
+.button2{
+    color: #fff;
+    background-color: black;
+    opacity: 0.8;
+    text-decoration: none;
+    border: 0;
+    font-size: 20px;
+    width: 20%;
+    height: 45px;
+}
+.button2:hover{
+    background-color: green;
+    opacity: 1;
+    transition: .5s;
+}
+
+.Contact{
+    background: url(240_F_198506301_zS7IDI4YU7kW0zFVagjTwl8AVI7lZvjP.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: hsl(0, 0%, 17%);
+    text-align: center;
+    
+}
+.contact_content{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.gmail{
+    text-align: center;
+}
+.Links a{
+    margin-left: 60px;
+}
+.heading_2{
+    text-align: center;
+    font-size: 40px;
+}
+.content{
+    text-align: center;
+    font-size: 15px;
+}
+
+.copyrights{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000000;
+    opacity: 0.9;
+    text-align: center;
+    padding: 10px;
+}
